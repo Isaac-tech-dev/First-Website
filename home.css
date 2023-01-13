@@ -1,0 +1,232 @@
+
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav ul{
+    float: right;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.nav ul li a:hover{
+    background-color: #eb1230;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 9px;
+}
+
+.for-header{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    height: 60px;
+    background-color: white;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-image{
+    background-image: url(/Resources/img/bg1.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+}
+
+#bg-text a{
+    color: white;
+    font-size: 56px;
+    font-weight: 800;
+}
+#bg-text p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.background-container{
+    background-color: black;
+}
+
+#bg-text {
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
+
+.first-sec{
+    padding: 0 10px 0 10px;
+}
+.first-sec img{
+    width: 25%;
+    float: left;
+    max-height: 250px;
+    min-height: 250px;
+    object-fit: cover;
+}
+.code-easy{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 70px;
+}
+.code-easy a{
+     font-size: 32px;
+     font-weight: bold;
+}
+
+.two-col{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 850px;
+    margin: auto auto;
+}
+
+.col-1 a{
+    font-size: 24px;
+    display: block;
+    padding: 0 30px 0 30px;
+}
+.col-2 img{
+    width: 300px;
+    border-radius: 10px;
+}
+.col-1{
+    border-radius: 10px;
+    background-color: rgb(159, 255, 255);
+}
+.cc2{
+    border-radius: 10px;
+    background-color: rgba(252, 82, 52);
+}
+.cc2 a{
+    color: white;
+}
+
+.sv-1 img{
+    width: 100px;
+    max-width: 100px;
+    min-width: 100px;
+}
+.services{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1200px;
+    margin: auto auto;
+    column-gap: 30px;
+    margin-top: 80px;
+    background-color: black;
+    padding-top: 20px;
+    border-radius: 0 25px 0 25px;
+}
+.sv-1 h3{
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+    padding-top: 10px;
+}
+footer{
+    margin-top: 80px;
+    background-color: rgb(238, 238, 238);
+}
+.ft-section{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    margin: auto auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.ft-1 li{
+    list-style: none;
+}
+.ft-1 li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.2;
+}
+.ft-1 li a:hover{
+    color: red;
+}
+
+.carousel {
+    width: 900px;
+    height: 900px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .carousel:hover .controls {
+        opacity: 1;}
+    
+.controls {
+      opacity: 0;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      justify-content: space-between;
+      width: 100%;
+      z-index: 99999;
+      transition: all ease 0.5s;
+    
+    }
+      
+.control {
+        margin: 0 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.7);
+        opacity: .5;
+        transition: ease .3s;
+        cursor: pointer;
+    
+    }
+
+    .control:hover {
+        opacity: 1;
+      }
+    
+      .slides {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        display: flex;
+        width: 100%;
+        transition: 1s ease-in-out all;
+      }
+        
+        .slide {
+          min-width: 100%;
+          min-height: 250px;
+          height: auto;
+  }
